@@ -1,4 +1,5 @@
 #include "mytcpserver.h"
+#include "Funcs_for_server.h"
 #include <QDebug>
 #include <QCoreApplication>
 
@@ -31,7 +32,7 @@ void MyTcpServer::slotReadyRead(){
     QDataStream in(socket);
 
     if(in.status()==QDataStream::Ok){
-        qDebug() <<"Reading...";
+        qDebug() <<"Ready to read.";
         QByteArray requestData="";
         QString request = "";
         while(socket->bytesAvailable()>0){
@@ -40,7 +41,7 @@ void MyTcpServer::slotReadyRead(){
         request += QString::fromUtf8(requestData);
         qDebug() <<"client said "<<request;
         }
-        SendToClient(request);
+        Parsing(requestData);
     }
     else{
         qDebug() << "DataStream error";
@@ -59,3 +60,9 @@ void MyTcpServer::SendToClient(QString request){
     socket->write("You said: " +responseData);}
     socket->flush();
 }
+
+
+
+
+
+

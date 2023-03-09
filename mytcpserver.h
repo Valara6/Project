@@ -25,6 +25,9 @@ private:
     QVector<QTcpSocket*> sockets;//Массив сокетов
     QByteArray data;
     void SendToClient(QString message);
+    void Login(QString email,QString passwrd);
+    void Registration(QString email,QString passwrd);
+    void SendAnswer(QString ans,int tasknum);
 };
 #endif // MYTCPSERVER_H
 
