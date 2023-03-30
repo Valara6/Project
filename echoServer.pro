@@ -1,6 +1,9 @@
 QT -= gui
 
+
 QT += network #Для работы с сетью
+QT += sql #для работы с sql
+
 
 
 CONFIG += c++11 console
@@ -19,6 +22,7 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
     Func_for_server.cpp \
+    database.cpp \
         main.cpp \
     mytcpserver.cpp
 
@@ -29,4 +33,7 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 HEADERS += \
     Funcs_for_server.h \
+    database.h \
     mytcpserver.h
+
+

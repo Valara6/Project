@@ -2,6 +2,7 @@
 #include "Funcs_for_server.h"
 #include <QDebug>
 #include <QCoreApplication>
+#include <QDataStream>
 
 MyTcpServer::~MyTcpServer()
 {
@@ -36,17 +37,26 @@ void MyTcpServer::slotReadyRead(){
         QByteArray requestData="";
         QString request = "";
         while(socket->bytesAvailable()>0){
-        // Read data from the clien
-        requestData = socket->readAll();;
-        request += QString::fromUtf8(requestData);
-        qDebug() <<"client said "<<request;
+            // Read data from the client
+            requestData = socket->readAll();
+            request += QString::fromUtf8(requestData);
+            request.chop(2);
+            qDebug() <<"client said "<<request;
         }
-        Parsing(requestData);
+
+        if (!request.isEmpty()) {
+            requestData.chop(2);
+            Parsing(requestData);
+        }
     }
     else{
         qDebug() << "DataStream error";
     }
 }
+
+
+
+
 void MyTcpServer::SendToClient(QString request){
     qDebug() <<"Sending... "<<request;
     data.clear();
@@ -60,9 +70,6 @@ void MyTcpServer::SendToClient(QString request){
     socket->write("You said: " +responseData);}
     socket->flush();
 }
-
-
-
 
 
 

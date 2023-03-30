@@ -1,5 +1,6 @@
 #include <QCoreApplication>
 #include "mytcpserver.h"
+#include "database.h"
 
 int main(int argc, char *argv[])
 {
