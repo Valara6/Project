@@ -29,5 +29,6 @@ private:
     void Registration(QString email,QString passwrd);
     void SendAnswer(QString ans,int tasknum);
 };
+
 #endif // MYTCPSERVER_H
 

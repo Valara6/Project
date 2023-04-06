@@ -2,12 +2,12 @@
 #include "database.h"
 #include <QDebug>
 #include <QCoreApplication>
-
+#include <QSqlDatabase>
 
 void Login(const QString& email,const QString& password){
-    DatabaseConnection* db = DatabaseConnection::getInstance();
-    QString query="select login ("+email+","+password+") as login ;";
-    int boolmember = (db->executeQuery(query)).value(0).toInt();
+//    DatabaseConnection* db = DatabaseConnection::getInstance();
+    QString query="select `login` ('"+email+"','"+password+"') as login ;";
+    int boolmember = DatabaseConnection::getInstance()->executeQuery(query);
     if (boolmember == 1) {  // Если найдено больше нуля записей с заданным именем пользователя,
         qDebug() << "User called " << email << "exists in database.";
 
@@ -24,17 +24,17 @@ void Registration(const QString& email,const QString& username,const QString& ro
         qDebug() <<"passwords are not same";
         return;
     }
-    DatabaseConnection* db = DatabaseConnection::getInstance();
-    QString query="select `registration` ("+email+","+username+","+password+","+role+") as registration ;";
 
-    int boolmember =(db->executeQuery(query)).value(0).toInt();
-        if (boolmember == 1) {
-            qDebug() << "User successfully inserted";
-        } else {
-            qDebug() << "User not successfully inserted because user with email: " << email << " already exists";
-            }
+    QString query="select `registration` ('"+email+"','"+username+"','"+password+"','"+role+"');";
 
+    int boolmember =DatabaseConnection::getInstance()->executeQuery(query);
+    if (boolmember == 1) {
+        qDebug() << "User successfully inserted";
+    } else {
+        qDebug() << "User not successfully inserted because user with email: " << email << " already exists";
+    }
 }
+
 void Parsing(QByteArray message){
 //data format: funk_name$dat1$dat2$...
     QList<QByteArray> parts = message.split('$');

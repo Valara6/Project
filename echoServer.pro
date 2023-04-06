@@ -1,11 +1,12 @@
 QT -= gui
 
 
-QT += network #Для работы с сетью
+QT += network \ #Для работы с сетью
+    quick
 QT += sql #для работы с sql
 
 
-
+QT += widgets
 CONFIG += c++11 console
 CONFIG -= app_bundle
 
@@ -24,7 +25,9 @@ SOURCES += \
     Func_for_server.cpp \
     database.cpp \
         main.cpp \
-    mytcpserver.cpp
+    mainwindow.cpp \
+    mytcpserver.cpp \
+    second.cpp
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
@@ -34,6 +37,16 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 HEADERS += \
     Funcs_for_server.h \
     database.h \
-    mytcpserver.h
+    mainwindow.h \
+    mytcpserver.h \
+    second.h
+
+FORMS += \
+    mainwindow.ui \
+    second.ui
+RESOURCES += \
+    photo.qrc
+DISTFILES += \
+    resourse/*
 
 

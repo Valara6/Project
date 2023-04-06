@@ -45,13 +45,30 @@ QSqlDatabase& DatabaseConnection::getDatabase()
 {
     return database;
 }
-QSqlQuery DatabaseConnection::executeQuery(const QString &query)
+int DatabaseConnection::executeQuery(const QString &query)
 {
     QSqlQuery s;
 
-    // Подготавливаем запрос для поиска пользователя с заданным именем в таблице 'users'
-    s.prepare(query);
-    s.exec();  // Выполняем запрос
-    s.next();  // Переходим к первой записи в результате запроса
-    return s;
+    // Подготавливаем запрос
+    if (!s.prepare(query)) {
+        qDebug() << "Failed to prepare query:" << s.lastError().text();
+        return -1;
+    }
+
+    // Выполняем запрос
+    if (!s.exec()) {
+        qDebug() << "Failed to execute query:" << s.lastError().text();
+        return -1;
+    }
+
+    // Переходим к первой записи в результате запроса
+    if (!s.next()) {
+        qDebug() << "No records returned by query:" << s.lastError().text();
+        return -1;
+    }
+
+    // Извлекаем значение первого поля из текущей записи
+    int a = s.value(0).toInt();
+    return a;
 }
+
