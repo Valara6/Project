@@ -1,0 +1,750 @@
+<RCC>
+  <qresource prefix="/">
+    <file>resourse/1 (2).jpg</file>
+    <file>resourse/1.png</file>
+    <file>resourse/1024px-Odnoklassniki.svg.png</file>
+    <file>resourse/59633d5a-7057-4036-8ae3-787a65b0ad42 (1).png</file>
+    <file>resourse/59633d5a-7057-4036-8ae3-787a65b0ad42.png</file>
+    <file>resourse/1491580635-yumminkysocialmedia26_83102.png</file>
+    <file>resourse/1491580651-yumminkysocialmedia28_83061.png</file>
+    <file>resourse/68747470733a2f2f697066732e696f2f697066732f6261667962656962366c6e7671776a7469636b6a7036747a68616d69796c687a636635746e79633574326e72726b76336d697274706c76356b69342f696d6167652e706e67-GGA8q5cUC-transformed.png</file>
+    <file>resourse/background.jpg</file>
+    <file>resourse/Button-Add-icon.png</file>
+    <file>resourse/Button-Delete-icon.png</file>
+    <file>resourse/Button-First-icon.png</file>
+    <file>resourse/Button-Last-icon.png</file>
+    <file>resourse/Button-Refresh-icon.png</file>
+    <file>resourse/classmates_logo_icon_134599.png</file>
+    <file>resourse/click.png</file>
+    <file>resourse/facebook_108044.png</file>
+    <file>resourse/facebook_logo_icon_134597.png</file>
+    <file>resourse/free-icon-youtube-4494485.png</file>
+    <file>resourse/icons8-github-32 (1).png</file>
+    <file>resourse/icons8-github-32.png</file>
+    <file>resourse/icons8-odnoklassniki-32.png</file>
+    <file>resourse/icons8-telegram-app-32.png</file>
+    <file>resourse/icons8-twitter-squared-32.png</file>
+    <file>resourse/icons8-vk-com-32.png</file>
+    <file>resourse/icons8-youtube-32.png</file>
+    <file>resourse/icons8-вконтакте-32.png</file>
+    <file>resourse/icons8-твиттер-32.png</file>
+    <file>resourse/icons8-телеграмма-app-32.png</file>
+    <file>resourse/icons8-ютуб-32.png</file>
+    <file>resourse/Image from million-wallpapers.ru 1920x1080.jpg</file>
+    <file>resourse/instagram_108043.png</file>
+    <file>resourse/instagram_logo_icon_134593.png</file>
+    <file>resourse/krasivyi-fon-78-1 (1) (1).png</file>
+    <file>resourse/krasivyi-fon-78-1 (1) (2).png</file>
+    <file>resourse/krasivyi-fon-78-1 (1).heic</file>
+    <file>resourse/krasivyi-fon-78-1 (1).jpeg</file>
+    <file>resourse/krasivyi-fon-78-1 (1).png</file>
+    <file>resourse/krasivyi-fon-78-1.webp</file>
+    <file>resourse/logout.png</file>
+    <file>resourse/MILI_AUTHOMAT.png</file>
+    <file>resourse/photo_2023-05-11_12-15-47.jpg</file>
+    <file>resourse/spreadsheet-app.png</file>
+    <file>resourse/Telegram_2019_Logo.svg.png</file>
+    <file>resourse/telegram_logo_icon_134592.png</file>
+    <file>resourse/telegram_logo_icon_147228.png</file>
+    <file>resourse/Twitter-logo.svg.png</file>
+    <file>resourse/user.png</file>
+    <file>resourse/VK_Compact_Logo.png</file>
+    <file>resourse/vk_logo_icon_134603.png</file>
+    <file>resourse/whatsapp_108042.png</file>
+    <file>resourse/Whatsapp_icon-icons.com_66931.png</file>
+    <file>resourse/youtube_108041.png</file>
+    <file>resourse/youtube_logo_icon_134601.png</file>
+    <file>resourse/youtube_social_icon_red.png</file>
+    <file>resourse/туц.png</file>
+    <file>resourse/1 (2).jpg</file>
+    <file>resourse/1.png</file>
+    <file>resourse/1024px-Odnoklassniki.svg.png</file>
+    <file>resourse/59633d5a-7057-4036-8ae3-787a65b0ad42 (1).png</file>
+    <file>resourse/59633d5a-7057-4036-8ae3-787a65b0ad42.png</file>
+    <file>resourse/1491580635-yumminkysocialmedia26_83102.png</file>
+    <file>resourse/1491580651-yumminkysocialmedia28_83061.png</file>
+    <file>resourse/68747470733a2f2f697066732e696f2f697066732f6261667962656962366c6e7671776a7469636b6a7036747a68616d69796c687a636635746e79633574326e72726b76336d697274706c76356b69342f696d6167652e706e67-GGA8q5cUC-transformed.png</file>
+    <file>resourse/background.jpg</file>
+    <file>resourse/Button-Add-icon.png</file>
+    <file>resourse/Button-Delete-icon.png</file>
+    <file>resourse/Button-First-icon.png</file>
+    <file>resourse/Button-Last-icon.png</file>
+    <file>resourse/Button-Refresh-icon.png</file>
+    <file>resourse/classmates_logo_icon_134599.png</file>
+    <file>resourse/click.png</file>
+    <file>resourse/facebook_108044.png</file>
+    <file>resourse/facebook_logo_icon_134597.png</file>
+    <file>resourse/free-icon-youtube-4494485.png</file>
+    <file>resourse/icons8-github-32 (1).png</file>
+    <file>resourse/icons8-github-32.png</file>
+    <file>resourse/icons8-odnoklassniki-32.png</file>
+    <file>resourse/icons8-telegram-app-32.png</file>
+    <file>resourse/icons8-twitter-squared-32.png</file>
+    <file>resourse/icons8-vk-com-32.png</file>
+    <file>resourse/icons8-youtube-32.png</file>
+    <file>resourse/icons8-вконтакте-32.png</file>
+    <file>resourse/icons8-твиттер-32.png</file>
+    <file>resourse/icons8-телеграмма-app-32.png</file>
+    <file>resourse/icons8-ютуб-32.png</file>
+    <file>resourse/Image from million-wallpapers.ru 1920x1080.jpg</file>
+    <file>resourse/instagram_108043.png</file>
+    <file>resourse/instagram_logo_icon_134593.png</file>
+    <file>resourse/krasivyi-fon-78-1 (1) (1).png</file>
+    <file>resourse/krasivyi-fon-78-1 (1) (2).png</file>
+    <file>resourse/krasivyi-fon-78-1 (1).heic</file>
+    <file>resourse/krasivyi-fon-78-1 (1).jpeg</file>
+    <file>resourse/krasivyi-fon-78-1 (1).png</file>
+    <file>resourse/krasivyi-fon-78-1.webp</file>
+    <file>resourse/logout.png</file>
+    <file>resourse/MILI_AUTHOMAT.png</file>
+    <file>resourse/photo_2023-05-11_12-15-47.jpg</file>
+    <file>resourse/spreadsheet-app.png</file>
+    <file>resourse/Telegram_2019_Logo.svg.png</file>
+    <file>resourse/telegram_logo_icon_134592.png</file>
+    <file>resourse/telegram_logo_icon_147228.png</file>
+    <file>resourse/Twitter-logo.svg.png</file>
+    <file>resourse/user.png</file>
+    <file>resourse/VK_Compact_Logo.png</file>
+    <file>resourse/vk_logo_icon_134603.png</file>
+    <file>resourse/whatsapp_108042.png</file>
+    <file>resourse/Whatsapp_icon-icons.com_66931.png</file>
+    <file>resourse/youtube_108041.png</file>
+    <file>resourse/youtube_logo_icon_134601.png</file>
+    <file>resourse/youtube_social_icon_red.png</file>
+    <file>resourse/туц.png</file>
+    <file>resourse/1 (2).jpg</file>
+    <file>resourse/1.png</file>
+    <file>resourse/1024px-Odnoklassniki.svg.png</file>
+    <file>resourse/59633d5a-7057-4036-8ae3-787a65b0ad42 (1).png</file>
+    <file>resourse/59633d5a-7057-4036-8ae3-787a65b0ad42.png</file>
+    <file>resourse/1491580635-yumminkysocialmedia26_83102.png</file>
+    <file>resourse/1491580651-yumminkysocialmedia28_83061.png</file>
+    <file>resourse/68747470733a2f2f697066732e696f2f697066732f6261667962656962366c6e7671776a7469636b6a7036747a68616d69796c687a636635746e79633574326e72726b76336d697274706c76356b69342f696d6167652e706e67-GGA8q5cUC-transformed.png</file>
+    <file>resourse/background.jpg</file>
+    <file>resourse/Button-Add-icon.png</file>
+    <file>resourse/Button-Delete-icon.png</file>
+    <file>resourse/Button-First-icon.png</file>
+    <file>resourse/Button-Last-icon.png</file>
+    <file>resourse/Button-Refresh-icon.png</file>
+    <file>resourse/classmates_logo_icon_134599.png</file>
+    <file>resourse/click.png</file>
+    <file>resourse/facebook_108044.png</file>
+    <file>resourse/facebook_logo_icon_134597.png</file>
+    <file>resourse/free-icon-youtube-4494485.png</file>
+    <file>resourse/icons8-github-32 (1).png</file>
+    <file>resourse/icons8-github-32.png</file>
+    <file>resourse/icons8-odnoklassniki-32.png</file>
+    <file>resourse/icons8-telegram-app-32.png</file>
+    <file>resourse/icons8-twitter-squared-32.png</file>
+    <file>resourse/icons8-vk-com-32.png</file>
+    <file>resourse/icons8-youtube-32.png</file>
+    <file>resourse/icons8-вконтакте-32.png</file>
+    <file>resourse/icons8-твиттер-32.png</file>
+    <file>resourse/icons8-телеграмма-app-32.png</file>
+    <file>resourse/icons8-ютуб-32.png</file>
+    <file>resourse/Image from million-wallpapers.ru 1920x1080.jpg</file>
+    <file>resourse/instagram_108043.png</file>
+    <file>resourse/instagram_logo_icon_134593.png</file>
+    <file>resourse/krasivyi-fon-78-1 (1) (1).png</file>
+    <file>resourse/krasivyi-fon-78-1 (1) (2).png</file>
+    <file>resourse/krasivyi-fon-78-1 (1).heic</file>
+    <file>resourse/krasivyi-fon-78-1 (1).jpeg</file>
+    <file>resourse/krasivyi-fon-78-1 (1).png</file>
+    <file>resourse/krasivyi-fon-78-1.webp</file>
+    <file>resourse/logout.png</file>
+    <file>resourse/spreadsheet-app.png</file>
+    <file>resourse/Telegram_2019_Logo.svg.png</file>
+    <file>resourse/telegram_logo_icon_134592.png</file>
+    <file>resourse/telegram_logo_icon_147228.png</file>
+    <file>resourse/Twitter-logo.svg.png</file>
+    <file>resourse/user.png</file>
+    <file>resourse/VK_Compact_Logo.png</file>
+    <file>resourse/vk_logo_icon_134603.png</file>
+    <file>resourse/whatsapp_108042.png</file>
+    <file>resourse/Whatsapp_icon-icons.com_66931.png</file>
+    <file>resourse/youtube_108041.png</file>
+    <file>resourse/youtube_logo_icon_134601.png</file>
+    <file>resourse/youtube_social_icon_red.png</file>
+    <file>resourse/туц.png</file>
+    <file>resourse/1 (2).jpg</file>
+    <file>resourse/1.png</file>
+    <file>resourse/1024px-Odnoklassniki.svg.png</file>
+    <file>resourse/59633d5a-7057-4036-8ae3-787a65b0ad42 (1).png</file>
+    <file>resourse/59633d5a-7057-4036-8ae3-787a65b0ad42.png</file>
+    <file>resourse/1491580635-yumminkysocialmedia26_83102.png</file>
+    <file>resourse/1491580651-yumminkysocialmedia28_83061.png</file>
+    <file>resourse/68747470733a2f2f697066732e696f2f697066732f6261667962656962366c6e7671776a7469636b6a7036747a68616d69796c687a636635746e79633574326e72726b76336d697274706c76356b69342f696d6167652e706e67-GGA8q5cUC-transformed.png</file>
+    <file>resourse/background.jpg</file>
+    <file>resourse/Button-Add-icon.png</file>
+    <file>resourse/Button-Delete-icon.png</file>
+    <file>resourse/Button-First-icon.png</file>
+    <file>resourse/Button-Last-icon.png</file>
+    <file>resourse/Button-Refresh-icon.png</file>
+    <file>resourse/classmates_logo_icon_134599.png</file>
+    <file>resourse/click.png</file>
+    <file>resourse/facebook_108044.png</file>
+    <file>resourse/facebook_logo_icon_134597.png</file>
+    <file>resourse/free-icon-youtube-4494485.png</file>
+    <file>resourse/icons8-github-32 (1).png</file>
+    <file>resourse/icons8-github-32.png</file>
+    <file>resourse/icons8-odnoklassniki-32.png</file>
+    <file>resourse/icons8-telegram-app-32.png</file>
+    <file>resourse/icons8-twitter-squared-32.png</file>
+    <file>resourse/icons8-vk-com-32.png</file>
+    <file>resourse/icons8-youtube-32.png</file>
+    <file>resourse/icons8-вконтакте-32.png</file>
+    <file>resourse/icons8-твиттер-32.png</file>
+    <file>resourse/icons8-телеграмма-app-32.png</file>
+    <file>resourse/icons8-ютуб-32.png</file>
+    <file>resourse/Image from million-wallpapers.ru 1920x1080.jpg</file>
+    <file>resourse/instagram_108043.png</file>
+    <file>resourse/instagram_logo_icon_134593.png</file>
+    <file>resourse/krasivyi-fon-78-1 (1) (1).png</file>
+    <file>resourse/krasivyi-fon-78-1 (1) (2).png</file>
+    <file>resourse/krasivyi-fon-78-1 (1).heic</file>
+    <file>resourse/krasivyi-fon-78-1 (1).jpeg</file>
+    <file>resourse/krasivyi-fon-78-1 (1).png</file>
+    <file>resourse/krasivyi-fon-78-1.webp</file>
+    <file>resourse/logout.png</file>
+    <file>resourse/spreadsheet-app.png</file>
+    <file>resourse/Telegram_2019_Logo.svg.png</file>
+    <file>resourse/telegram_logo_icon_134592.png</file>
+    <file>resourse/telegram_logo_icon_147228.png</file>
+    <file>resourse/Twitter-logo.svg.png</file>
+    <file>resourse/user.png</file>
+    <file>resourse/VK_Compact_Logo.png</file>
+    <file>resourse/vk_logo_icon_134603.png</file>
+    <file>resourse/whatsapp_108042.png</file>
+    <file>resourse/Whatsapp_icon-icons.com_66931.png</file>
+    <file>resourse/youtube_108041.png</file>
+    <file>resourse/youtube_logo_icon_134601.png</file>
+    <file>resourse/youtube_social_icon_red.png</file>
+    <file>resourse/туц.png</file>
+    <file>resourse/1 (2).jpg</file>
+    <file>resourse/1.png</file>
+    <file>resourse/1024px-Odnoklassniki.svg.png</file>
+    <file>resourse/59633d5a-7057-4036-8ae3-787a65b0ad42 (1).png</file>
+    <file>resourse/59633d5a-7057-4036-8ae3-787a65b0ad42.png</file>
+    <file>resourse/1491580635-yumminkysocialmedia26_83102.png</file>
+    <file>resourse/1491580651-yumminkysocialmedia28_83061.png</file>
+    <file>resourse/68747470733a2f2f697066732e696f2f697066732f6261667962656962366c6e7671776a7469636b6a7036747a68616d69796c687a636635746e79633574326e72726b76336d697274706c76356b69342f696d6167652e706e67-GGA8q5cUC-transformed.png</file>
+    <file>resourse/background.jpg</file>
+    <file>resourse/Button-Add-icon.png</file>
+    <file>resourse/Button-Delete-icon.png</file>
+    <file>resourse/Button-First-icon.png</file>
+    <file>resourse/Button-Last-icon.png</file>
+    <file>resourse/Button-Refresh-icon.png</file>
+    <file>resourse/classmates_logo_icon_134599.png</file>
+    <file>resourse/click.png</file>
+    <file>resourse/facebook_108044.png</file>
+    <file>resourse/facebook_logo_icon_134597.png</file>
+    <file>resourse/free-icon-youtube-4494485.png</file>
+    <file>resourse/icons8-github-32 (1).png</file>
+    <file>resourse/icons8-github-32.png</file>
+    <file>resourse/icons8-odnoklassniki-32.png</file>
+    <file>resourse/icons8-telegram-app-32.png</file>
+    <file>resourse/icons8-twitter-squared-32.png</file>
+    <file>resourse/icons8-vk-com-32.png</file>
+    <file>resourse/icons8-youtube-32.png</file>
+    <file>resourse/icons8-вконтакте-32.png</file>
+    <file>resourse/icons8-твиттер-32.png</file>
+    <file>resourse/icons8-телеграмма-app-32.png</file>
+    <file>resourse/icons8-ютуб-32.png</file>
+    <file>resourse/Image from million-wallpapers.ru 1920x1080.jpg</file>
+    <file>resourse/instagram_108043.png</file>
+    <file>resourse/instagram_logo_icon_134593.png</file>
+    <file>resourse/krasivyi-fon-78-1 (1) (1).png</file>
+    <file>resourse/krasivyi-fon-78-1 (1) (2).png</file>
+    <file>resourse/krasivyi-fon-78-1 (1).heic</file>
+    <file>resourse/krasivyi-fon-78-1 (1).jpeg</file>
+    <file>resourse/krasivyi-fon-78-1 (1).png</file>
+    <file>resourse/krasivyi-fon-78-1.webp</file>
+    <file>resourse/logout.png</file>
+    <file>resourse/spreadsheet-app.png</file>
+    <file>resourse/Telegram_2019_Logo.svg.png</file>
+    <file>resourse/telegram_logo_icon_134592.png</file>
+    <file>resourse/telegram_logo_icon_147228.png</file>
+    <file>resourse/Twitter-logo.svg.png</file>
+    <file>resourse/user.png</file>
+    <file>resourse/VK_Compact_Logo.png</file>
+    <file>resourse/vk_logo_icon_134603.png</file>
+    <file>resourse/whatsapp_108042.png</file>
+    <file>resourse/Whatsapp_icon-icons.com_66931.png</file>
+    <file>resourse/youtube_108041.png</file>
+    <file>resourse/youtube_logo_icon_134601.png</file>
+    <file>resourse/youtube_social_icon_red.png</file>
+    <file>resourse/туц.png</file>
+    <file>photo.qrc</file>
+    <file>resourse/1 (2).jpg</file>
+    <file>resourse/1.png</file>
+    <file>resourse/1024px-Odnoklassniki.svg.png</file>
+    <file>resourse/59633d5a-7057-4036-8ae3-787a65b0ad42 (1).png</file>
+    <file>resourse/59633d5a-7057-4036-8ae3-787a65b0ad42.png</file>
+    <file>resourse/1491580635-yumminkysocialmedia26_83102.png</file>
+    <file>resourse/1491580651-yumminkysocialmedia28_83061.png</file>
+    <file>resourse/1 (2).jpg</file>
+    <file>resourse/1.png</file>
+    <file>resourse/1024px-Odnoklassniki.svg.png</file>
+    <file>resourse/59633d5a-7057-4036-8ae3-787a65b0ad42 (1).png</file>
+    <file>resourse/59633d5a-7057-4036-8ae3-787a65b0ad42.png</file>
+    <file>resourse/1491580635-yumminkysocialmedia26_83102.png</file>
+    <file>resourse/1491580651-yumminkysocialmedia28_83061.png</file>
+    <file>resourse/68747470733a2f2f697066732e696f2f697066732f6261667962656962366c6e7671776a7469636b6a7036747a68616d69796c687a636635746e79633574326e72726b76336d697274706c76356b69342f696d6167652e706e67-GGA8q5cUC-transformed.png</file>
+    <file>resourse/background.jpg</file>
+    <file>resourse/Button-Add-icon.png</file>
+    <file>resourse/Button-Delete-icon.png</file>
+    <file>resourse/Button-First-icon.png</file>
+    <file>resourse/Button-Last-icon.png</file>
+    <file>resourse/Button-Refresh-icon.png</file>
+    <file>resourse/classmates_logo_icon_134599.png</file>
+    <file>resourse/click.png</file>
+    <file>resourse/facebook_108044.png</file>
+    <file>resourse/facebook_logo_icon_134597.png</file>
+    <file>resourse/free-icon-youtube-4494485.png</file>
+    <file>resourse/icons8-github-32 (1).png</file>
+    <file>resourse/icons8-github-32.png</file>
+    <file>resourse/icons8-odnoklassniki-32.png</file>
+    <file>resourse/icons8-telegram-app-32.png</file>
+    <file>resourse/icons8-twitter-squared-32.png</file>
+    <file>resourse/icons8-vk-com-32.png</file>
+    <file>resourse/icons8-youtube-32.png</file>
+    <file>resourse/icons8-вконтакте-32.png</file>
+    <file>resourse/icons8-твиттер-32.png</file>
+    <file>resourse/icons8-телеграмма-app-32.png</file>
+    <file>resourse/icons8-ютуб-32.png</file>
+    <file>resourse/Image from million-wallpapers.ru 1920x1080.jpg</file>
+    <file>resourse/instagram_108043.png</file>
+    <file>resourse/instagram_logo_icon_134593.png</file>
+    <file>resourse/krasivyi-fon-78-1 (1) (1).png</file>
+    <file>resourse/krasivyi-fon-78-1 (1) (2).png</file>
+    <file>resourse/krasivyi-fon-78-1 (1).heic</file>
+    <file>resourse/krasivyi-fon-78-1 (1).jpeg</file>
+    <file>resourse/krasivyi-fon-78-1 (1).png</file>
+    <file>resourse/krasivyi-fon-78-1.webp</file>
+    <file>resourse/logout.png</file>
+    <file>resourse/Telegram_2019_Logo.svg.png</file>
+    <file>resourse/telegram_logo_icon_134592.png</file>
+    <file>resourse/telegram_logo_icon_147228.png</file>
+    <file>resourse/Twitter-logo.svg.png</file>
+    <file>resourse/user.png</file>
+    <file>resourse/VK_Compact_Logo.png</file>
+    <file>resourse/vk_logo_icon_134603.png</file>
+    <file>resourse/whatsapp_108042.png</file>
+    <file>resourse/Whatsapp_icon-icons.com_66931.png</file>
+    <file>resourse/youtube_108041.png</file>
+    <file>resourse/youtube_logo_icon_134601.png</file>
+    <file>resourse/youtube_social_icon_red.png</file>
+    <file>resourse/туц.png</file>
+    <file>resourse/68747470733a2f2f697066732e696f2f697066732f6261667962656962366c6e7671776a7469636b6a7036747a68616d69796c687a636635746e79633574326e72726b76336d697274706c76356b69342f696d6167652e706e67-GGA8q5cUC-transformed.png</file>
+    <file>resourse/background.jpg</file>
+    <file>resourse/classmates_logo_icon_134599.png</file>
+    <file>resourse/click.png</file>
+    <file>resourse/facebook_108044.png</file>
+    <file>resourse/facebook_logo_icon_134597.png</file>
+    <file>resourse/free-icon-youtube-4494485.png</file>
+    <file>resourse/icons8-github-32 (1).png</file>
+    <file>resourse/icons8-github-32.png</file>
+    <file>resourse/icons8-odnoklassniki-32.png</file>
+    <file>resourse/icons8-telegram-app-32.png</file>
+    <file>resourse/icons8-twitter-squared-32.png</file>
+    <file>resourse/icons8-vk-com-32.png</file>
+    <file>resourse/icons8-youtube-32.png</file>
+    <file>resourse/icons8-вконтакте-32.png</file>
+    <file>resourse/icons8-твиттер-32.png</file>
+    <file>resourse/icons8-телеграмма-app-32.png</file>
+    <file>resourse/icons8-ютуб-32.png</file>
+    <file>resourse/Image from million-wallpapers.ru 1920x1080.jpg</file>
+    <file>resourse/instagram_108043.png</file>
+    <file>resourse/instagram_logo_icon_134593.png</file>
+    <file>resourse/krasivyi-fon-78-1 (1) (1).png</file>
+    <file>resourse/krasivyi-fon-78-1 (1) (2).png</file>
+    <file>resourse/krasivyi-fon-78-1 (1).heic</file>
+    <file>resourse/krasivyi-fon-78-1 (1).jpeg</file>
+    <file>resourse/krasivyi-fon-78-1 (1).png</file>
+    <file>resourse/krasivyi-fon-78-1.webp</file>
+    <file>resourse/logout.png</file>
+    <file>resourse/Telegram_2019_Logo.svg.png</file>
+    <file>resourse/telegram_logo_icon_134592.png</file>
+    <file>resourse/telegram_logo_icon_147228.png</file>
+    <file>resourse/Twitter-logo.svg.png</file>
+    <file>resourse/user.png</file>
+    <file>resourse/VK_Compact_Logo.png</file>
+    <file>resourse/vk_logo_icon_134603.png</file>
+    <file>resourse/whatsapp_108042.png</file>
+    <file>resourse/Whatsapp_icon-icons.com_66931.png</file>
+    <file>resourse/youtube_108041.png</file>
+    <file>resourse/youtube_logo_icon_134601.png</file>
+    <file>resourse/youtube_social_icon_red.png</file>
+    <file>resourse/туц.png</file>
+    <file>resourse/1 (2).jpg</file>
+    <file>resourse/1.png</file>
+    <file>resourse/1024px-Odnoklassniki.svg.png</file>
+    <file>resourse/59633d5a-7057-4036-8ae3-787a65b0ad42 (1).png</file>
+    <file>resourse/59633d5a-7057-4036-8ae3-787a65b0ad42.png</file>
+    <file>resourse/1491580635-yumminkysocialmedia26_83102.png</file>
+    <file>resourse/1491580651-yumminkysocialmedia28_83061.png</file>
+    <file>resourse/68747470733a2f2f697066732e696f2f697066732f6261667962656962366c6e7671776a7469636b6a7036747a68616d69796c687a636635746e79633574326e72726b76336d697274706c76356b69342f696d6167652e706e67-GGA8q5cUC-transformed.png</file>
+    <file>resourse/background.jpg</file>
+    <file>resourse/classmates_logo_icon_134599.png</file>
+    <file>resourse/click.png</file>
+    <file>resourse/facebook_108044.png</file>
+    <file>resourse/facebook_logo_icon_134597.png</file>
+    <file>resourse/free-icon-youtube-4494485.png</file>
+    <file>resourse/icons8-github-32 (1).png</file>
+    <file>resourse/icons8-github-32.png</file>
+    <file>resourse/icons8-odnoklassniki-32.png</file>
+    <file>resourse/icons8-telegram-app-32.png</file>
+    <file>resourse/icons8-twitter-squared-32.png</file>
+    <file>resourse/icons8-vk-com-32.png</file>
+    <file>resourse/icons8-youtube-32.png</file>
+    <file>resourse/icons8-вконтакте-32.png</file>
+    <file>resourse/icons8-твиттер-32.png</file>
+    <file>resourse/icons8-телеграмма-app-32.png</file>
+    <file>resourse/icons8-ютуб-32.png</file>
+    <file>resourse/Image from million-wallpapers.ru 1920x1080.jpg</file>
+    <file>resourse/instagram_108043.png</file>
+    <file>resourse/instagram_logo_icon_134593.png</file>
+    <file>resourse/krasivyi-fon-78-1 (1) (1).png</file>
+    <file>resourse/krasivyi-fon-78-1 (1) (2).png</file>
+    <file>resourse/krasivyi-fon-78-1 (1).heic</file>
+    <file>resourse/krasivyi-fon-78-1 (1).jpeg</file>
+    <file>resourse/krasivyi-fon-78-1 (1).png</file>
+    <file>resourse/krasivyi-fon-78-1.webp</file>
+    <file>resourse/Telegram_2019_Logo.svg.png</file>
+    <file>resourse/telegram_logo_icon_134592.png</file>
+    <file>resourse/telegram_logo_icon_147228.png</file>
+    <file>resourse/Twitter-logo.svg.png</file>
+    <file>resourse/VK_Compact_Logo.png</file>
+    <file>resourse/vk_logo_icon_134603.png</file>
+    <file>resourse/whatsapp_108042.png</file>
+    <file>resourse/Whatsapp_icon-icons.com_66931.png</file>
+    <file>resourse/youtube_108041.png</file>
+    <file>resourse/youtube_logo_icon_134601.png</file>
+    <file>resourse/youtube_social_icon_red.png</file>
+    <file>resourse/туц.png</file>
+    <file>resourse/1 (2).jpg</file>
+    <file>resourse/1.png</file>
+    <file>resourse/1024px-Odnoklassniki.svg.png</file>
+    <file>resourse/59633d5a-7057-4036-8ae3-787a65b0ad42 (1).png</file>
+    <file>resourse/59633d5a-7057-4036-8ae3-787a65b0ad42.png</file>
+    <file>resourse/1491580635-yumminkysocialmedia26_83102.png</file>
+    <file>resourse/1491580651-yumminkysocialmedia28_83061.png</file>
+    <file>resourse/68747470733a2f2f697066732e696f2f697066732f6261667962656962366c6e7671776a7469636b6a7036747a68616d69796c687a636635746e79633574326e72726b76336d697274706c76356b69342f696d6167652e706e67-GGA8q5cUC-transformed.png</file>
+    <file>resourse/background.jpg</file>
+    <file>resourse/classmates_logo_icon_134599.png</file>
+    <file>resourse/facebook_108044.png</file>
+    <file>resourse/facebook_logo_icon_134597.png</file>
+    <file>resourse/free-icon-youtube-4494485.png</file>
+    <file>resourse/icons8-github-32 (1).png</file>
+    <file>resourse/icons8-github-32.png</file>
+    <file>resourse/icons8-odnoklassniki-32.png</file>
+    <file>resourse/icons8-telegram-app-32.png</file>
+    <file>resourse/icons8-twitter-squared-32.png</file>
+    <file>resourse/icons8-vk-com-32.png</file>
+    <file>resourse/icons8-youtube-32.png</file>
+    <file>resourse/icons8-вконтакте-32.png</file>
+    <file>resourse/icons8-твиттер-32.png</file>
+    <file>resourse/icons8-телеграмма-app-32.png</file>
+    <file>resourse/icons8-ютуб-32.png</file>
+    <file>resourse/Image from million-wallpapers.ru 1920x1080.jpg</file>
+    <file>resourse/instagram_108043.png</file>
+    <file>resourse/instagram_logo_icon_134593.png</file>
+    <file>resourse/krasivyi-fon-78-1 (1) (1).png</file>
+    <file>resourse/krasivyi-fon-78-1 (1) (2).png</file>
+    <file>resourse/krasivyi-fon-78-1 (1).heic</file>
+    <file>resourse/krasivyi-fon-78-1 (1).jpeg</file>
+    <file>resourse/krasivyi-fon-78-1 (1).png</file>
+    <file>resourse/krasivyi-fon-78-1.webp</file>
+    <file>resourse/Telegram_2019_Logo.svg.png</file>
+    <file>resourse/telegram_logo_icon_134592.png</file>
+    <file>resourse/telegram_logo_icon_147228.png</file>
+    <file>resourse/Twitter-logo.svg.png</file>
+    <file>resourse/VK_Compact_Logo.png</file>
+    <file>resourse/vk_logo_icon_134603.png</file>
+    <file>resourse/whatsapp_108042.png</file>
+    <file>resourse/Whatsapp_icon-icons.com_66931.png</file>
+    <file>resourse/youtube_108041.png</file>
+    <file>resourse/youtube_logo_icon_134601.png</file>
+    <file>resourse/youtube_social_icon_red.png</file>
+    <file>resourse/туц.png</file>
+    <file>resourse/1.png</file>
+    <file>resourse/59633d5a-7057-4036-8ae3-787a65b0ad42 (1).png</file>
+    <file>resourse/68747470733a2f2f697066732e696f2f697066732f6261667962656962366c6e7671776a7469636b6a7036747a68616d69796c687a636635746e79633574326e72726b76336d697274706c76356b69342f696d6167652e706e67-GGA8q5cUC-transformed.png</file>
+    <file>resourse/background.jpg</file>
+    <file>resourse/icons8-github-32 (1).png</file>
+    <file>resourse/icons8-github-32.png</file>
+    <file>resourse/icons8-odnoklassniki-32.png</file>
+    <file>resourse/icons8-telegram-app-32.png</file>
+    <file>resourse/icons8-twitter-squared-32.png</file>
+    <file>resourse/icons8-vk-com-32.png</file>
+    <file>resourse/icons8-youtube-32.png</file>
+    <file>resourse/icons8-вконтакте-32.png</file>
+    <file>resourse/icons8-твиттер-32.png</file>
+    <file>resourse/icons8-телеграмма-app-32.png</file>
+    <file>resourse/icons8-ютуб-32.png</file>
+    <file>resourse/krasivyi-fon-78-1 (1) (1).png</file>
+    <file>resourse/krasivyi-fon-78-1 (1) (2).png</file>
+    <file>resourse/krasivyi-fon-78-1 (1).jpeg</file>
+    <file>resourse/krasivyi-fon-78-1 (1).png</file>
+    <file>resourse/krasivyi-fon-78-1.webp</file>
+    <file>resourse/Twitter-logo.svg.png</file>
+    <file>resourse/youtube_social_icon_red.png</file>
+    <file>resourse/1.png</file>
+    <file>resourse/59633d5a-7057-4036-8ae3-787a65b0ad42 (1).png</file>
+    <file>resourse/68747470733a2f2f697066732e696f2f697066732f6261667962656962366c6e7671776a7469636b6a7036747a68616d69796c687a636635746e79633574326e72726b76336d697274706c76356b69342f696d6167652e706e67-GGA8q5cUC-transformed.png</file>
+    <file>resourse/background.jpg</file>
+    <file>resourse/icons8-github-32.png</file>
+    <file>resourse/icons8-odnoklassniki-32.png</file>
+    <file>resourse/icons8-telegram-app-32.png</file>
+    <file>resourse/icons8-twitter-squared-32.png</file>
+    <file>resourse/icons8-vk-com-32.png</file>
+    <file>resourse/icons8-youtube-32.png</file>
+    <file>resourse/krasivyi-fon-78-1 (1) (1).png</file>
+    <file>resourse/krasivyi-fon-78-1 (1) (2).png</file>
+    <file>resourse/krasivyi-fon-78-1 (1).jpeg</file>
+    <file>resourse/krasivyi-fon-78-1 (1).png</file>
+    <file>resourse/krasivyi-fon-78-1.webp</file>
+    <file>resourse/Twitter-logo.svg.png</file>
+    <file>resourse/youtube_social_icon_red.png</file>
+    <file>resourse/1.png</file>
+    <file>resourse/59633d5a-7057-4036-8ae3-787a65b0ad42 (1).png</file>
+    <file>resourse/background.jpg</file>
+    <file>resourse/icons8-github-32.png</file>
+    <file>resourse/icons8-odnoklassniki-32.png</file>
+    <file>resourse/icons8-telegram-app-32.png</file>
+    <file>resourse/icons8-twitter-squared-32.png</file>
+    <file>resourse/icons8-vk-com-32.png</file>
+    <file>resourse/icons8-youtube-32.png</file>
+    <file>resourse/krasivyi-fon-78-1 (1) (1).png</file>
+    <file>resourse/krasivyi-fon-78-1 (1) (2).png</file>
+    <file>resourse/krasivyi-fon-78-1 (1).jpeg</file>
+    <file>resourse/krasivyi-fon-78-1 (1).png</file>
+    <file>resourse/krasivyi-fon-78-1.webp</file>
+    <file>resourse/1.png</file>
+    <file>resourse/59633d5a-7057-4036-8ae3-787a65b0ad42 (1).png</file>
+    <file>resourse/background.jpg</file>
+    <file>resourse/icons8-github-32.png</file>
+    <file>resourse/icons8-odnoklassniki-32.png</file>
+    <file>resourse/icons8-telegram-app-32.png</file>
+    <file>resourse/icons8-twitter-squared-32.png</file>
+    <file>resourse/icons8-vk-com-32.png</file>
+    <file>resourse/icons8-youtube-32.png</file>
+    <file>resourse/krasivyi-fon-78-1 (1) (1).png</file>
+    <file>resourse/krasivyi-fon-78-1 (1) (2).png</file>
+    <file>resourse/krasivyi-fon-78-1 (1).png</file>
+    <file>resourse/krasivyi-fon-78-1.webp</file>
+    <file>resourse/1.png</file>
+    <file>resourse/59633d5a-7057-4036-8ae3-787a65b0ad42 (1).png</file>
+    <file>resourse/background.jpg</file>
+    <file>resourse/icons8-github-32.png</file>
+    <file>resourse/icons8-odnoklassniki-32.png</file>
+    <file>resourse/icons8-telegram-app-32.png</file>
+    <file>resourse/icons8-twitter-squared-32.png</file>
+    <file>resourse/icons8-vk-com-32.png</file>
+    <file>resourse/icons8-youtube-32.png</file>
+    <file>resourse/krasivyi-fon-78-1 (1) (1).png</file>
+    <file>resourse/krasivyi-fon-78-1 (1).png</file>
+    <file>resourse/krasivyi-fon-78-1.webp</file>
+    <file>resourse/1.png</file>
+    <file>resourse/59633d5a-7057-4036-8ae3-787a65b0ad42 (1).png</file>
+    <file>resourse/background.jpg</file>
+    <file>resourse/icons8-github-32.png</file>
+    <file>resourse/icons8-odnoklassniki-32.png</file>
+    <file>resourse/icons8-telegram-app-32.png</file>
+    <file>resourse/icons8-twitter-squared-32.png</file>
+    <file>resourse/icons8-vk-com-32.png</file>
+    <file>resourse/icons8-youtube-32.png</file>
+    <file>resourse/krasivyi-fon-78-1 (1).png</file>
+    <file>resourse/krasivyi-fon-78-1.webp</file>
+    <file>resourse/1.png</file>
+    <file>resourse/background.jpg</file>
+    <file>resourse/icons8-github-32.png</file>
+    <file>resourse/icons8-odnoklassniki-32.png</file>
+    <file>resourse/icons8-telegram-app-32.png</file>
+    <file>resourse/icons8-twitter-squared-32.png</file>
+    <file>resourse/icons8-vk-com-32.png</file>
+    <file>resourse/icons8-youtube-32.png</file>
+    <file>resourse/background.jpg</file>
+    <file>resourse/icons8-github-32.png</file>
+    <file>resourse/icons8-odnoklassniki-32.png</file>
+    <file>resourse/icons8-telegram-app-32.png</file>
+    <file>resourse/icons8-twitter-squared-32.png</file>
+    <file>resourse/icons8-vk-com-32.png</file>
+    <file>resourse/icons8-youtube-32.png</file>
+    <file>resourse/background.jpg</file>
+    <file>resourse/icons8-github-32.png</file>
+    <file>resourse/icons8-odnoklassniki-32.png</file>
+    <file>resourse/icons8-twitter-squared-32.png</file>
+    <file>resourse/icons8-vk-com-32.png</file>
+    <file>resourse/icons8-youtube-32.png</file>
+    <file>resourse/1024px-Odnoklassniki.svg.png</file>
+    <file>resourse/background.jpg</file>
+    <file>resourse/Telegram_2019_Logo.svg.png</file>
+    <file>resourse/telegram_logo_icon_134592.png</file>
+    <file>resourse/Twitter-logo.svg.png</file>
+    <file>resourse/youtube_logo_icon_134601.png</file>
+    <file>resourse/youtube_social_icon_red.png</file>
+    <file>resourse/1024px-Odnoklassniki.svg.png</file>
+    <file>resourse/background.jpg</file>
+    <file>resourse/Telegram_2019_Logo.svg.png</file>
+    <file>resourse/telegram_logo_icon_134592.png</file>
+    <file>resourse/Twitter-logo.svg.png</file>
+    <file>resourse/youtube_logo_icon_134601.png</file>
+    <file>resourse/background.jpg</file>
+    <file>resourse/classmates_logo_icon_134599.png</file>
+    <file>resourse/facebook_108044.png</file>
+    <file>resourse/facebook_logo_icon_134597.png</file>
+    <file>resourse/instagram_108043.png</file>
+    <file>resourse/instagram_logo_icon_134593.png</file>
+    <file>resourse/telegram_logo_icon_134592.png</file>
+    <file>resourse/telegram_logo_icon_147228.png</file>
+    <file>resourse/VK_Compact_Logo.png</file>
+    <file>resourse/vk_logo_icon_134603.png</file>
+    <file>resourse/whatsapp_108042.png</file>
+    <file>resourse/youtube_108041.png</file>
+    <file>resourse/youtube_logo_icon_134601.png</file>
+    <file>resourse/background.jpg</file>
+    <file>resourse/classmates_logo_icon_134599.png</file>
+    <file>resourse/facebook_108044.png</file>
+    <file>resourse/facebook_logo_icon_134597.png</file>
+    <file>resourse/instagram_108043.png</file>
+    <file>resourse/instagram_logo_icon_134593.png</file>
+    <file>resourse/telegram_logo_icon_134592.png</file>
+    <file>resourse/telegram_logo_icon_147228.png</file>
+    <file>resourse/vk_logo_icon_134603.png</file>
+    <file>resourse/whatsapp_108042.png</file>
+    <file>resourse/youtube_108041.png</file>
+    <file>resourse/youtube_logo_icon_134601.png</file>
+    <file>resourse/background.jpg</file>
+    <file>resourse/facebook_108044.png</file>
+    <file>resourse/facebook_logo_icon_134597.png</file>
+    <file>resourse/instagram_108043.png</file>
+    <file>resourse/instagram_logo_icon_134593.png</file>
+    <file>resourse/telegram_logo_icon_134592.png</file>
+    <file>resourse/telegram_logo_icon_147228.png</file>
+    <file>resourse/vk_logo_icon_134603.png</file>
+    <file>resourse/whatsapp_108042.png</file>
+    <file>resourse/youtube_108041.png</file>
+    <file>resourse/youtube_logo_icon_134601.png</file>
+    <file>resourse/background.jpg</file>
+    <file>resourse/facebook_108044.png</file>
+    <file>resourse/facebook_logo_icon_134597.png</file>
+    <file>resourse/instagram_108043.png</file>
+    <file>resourse/instagram_logo_icon_134593.png</file>
+    <file>resourse/telegram_logo_icon_134592.png</file>
+    <file>resourse/telegram_logo_icon_147228.png</file>
+    <file>resourse/whatsapp_108042.png</file>
+    <file>resourse/youtube_108041.png</file>
+    <file>resourse/youtube_logo_icon_134601.png</file>
+    <file>resourse/facebook_108044.png</file>
+    <file>resourse/instagram_108043.png</file>
+    <file>resourse/telegram_logo_icon_147228.png</file>
+    <file>resourse/whatsapp_108042.png</file>
+    <file>resourse/youtube_108041.png</file>
+    <file>resourse/background.jpg</file>
+  </qresource>
+  <qresource prefix="/newPrefix">
+    <file>resourse/1 (2).jpg</file>
+    <file>resourse/1.png</file>
+    <file>resourse/1024px-Odnoklassniki.svg.png</file>
+    <file>resourse/59633d5a-7057-4036-8ae3-787a65b0ad42 (1).png</file>
+    <file>resourse/59633d5a-7057-4036-8ae3-787a65b0ad42.png</file>
+    <file>resourse/1491580635-yumminkysocialmedia26_83102.png</file>
+    <file>resourse/1491580651-yumminkysocialmedia28_83061.png</file>
+    <file>resourse/68747470733a2f2f697066732e696f2f697066732f6261667962656962366c6e7671776a7469636b6a7036747a68616d69796c687a636635746e79633574326e72726b76336d697274706c76356b69342f696d6167652e706e67-GGA8q5cUC-transformed.png</file>
+    <file>resourse/background.jpg</file>
+    <file>resourse/Button-Add-icon.png</file>
+    <file>resourse/Button-Delete-icon.png</file>
+    <file>resourse/Button-First-icon.png</file>
+    <file>resourse/Button-Last-icon.png</file>
+    <file>resourse/Button-Refresh-icon.png</file>
+    <file>resourse/classmates_logo_icon_134599.png</file>
+    <file>resourse/click.png</file>
+    <file>resourse/facebook_108044.png</file>
+    <file>resourse/facebook_logo_icon_134597.png</file>
+    <file>resourse/free-icon-youtube-4494485.png</file>
+    <file>resourse/icons8-github-32 (1).png</file>
+    <file>resourse/icons8-github-32.png</file>
+    <file>resourse/icons8-odnoklassniki-32.png</file>
+    <file>resourse/icons8-telegram-app-32.png</file>
+    <file>resourse/icons8-twitter-squared-32.png</file>
+    <file>resourse/icons8-vk-com-32.png</file>
+    <file>resourse/icons8-youtube-32.png</file>
+    <file>resourse/icons8-вконтакте-32.png</file>
+    <file>resourse/icons8-твиттер-32.png</file>
+    <file>resourse/icons8-телеграмма-app-32.png</file>
+    <file>resourse/icons8-ютуб-32.png</file>
+    <file>resourse/Image from million-wallpapers.ru 1920x1080.jpg</file>
+    <file>resourse/instagram_108043.png</file>
+    <file>resourse/instagram_logo_icon_134593.png</file>
+    <file>resourse/krasivyi-fon-78-1 (1) (1).png</file>
+    <file>resourse/krasivyi-fon-78-1 (1) (2).png</file>
+    <file>resourse/krasivyi-fon-78-1 (1).heic</file>
+    <file>resourse/krasivyi-fon-78-1 (1).jpeg</file>
+    <file>resourse/krasivyi-fon-78-1 (1).png</file>
+    <file>resourse/krasivyi-fon-78-1.webp</file>
+    <file>resourse/logout.png</file>
+    <file>resourse/MILI_AUTHOMAT.png</file>
+    <file>resourse/spreadsheet-app.png</file>
+    <file>resourse/Telegram_2019_Logo.svg.png</file>
+    <file>resourse/telegram_logo_icon_134592.png</file>
+    <file>resourse/telegram_logo_icon_147228.png</file>
+    <file>resourse/Twitter-logo.svg.png</file>
+    <file>resourse/user.png</file>
+    <file>resourse/VK_Compact_Logo.png</file>
+    <file>resourse/vk_logo_icon_134603.png</file>
+    <file>resourse/whatsapp_108042.png</file>
+    <file>resourse/Whatsapp_icon-icons.com_66931.png</file>
+    <file>resourse/youtube_108041.png</file>
+    <file>resourse/youtube_logo_icon_134601.png</file>
+    <file>resourse/youtube_social_icon_red.png</file>
+    <file>resourse/туц.png</file>
+    <file>resourse/1 (2).jpg</file>
+    <file>resourse/1.png</file>
+    <file>resourse/1024px-Odnoklassniki.svg.png</file>
+    <file>resourse/59633d5a-7057-4036-8ae3-787a65b0ad42 (1).png</file>
+    <file>resourse/59633d5a-7057-4036-8ae3-787a65b0ad42.png</file>
+    <file>resourse/1491580635-yumminkysocialmedia26_83102.png</file>
+    <file>resourse/1491580651-yumminkysocialmedia28_83061.png</file>
+    <file>resourse/68747470733a2f2f697066732e696f2f697066732f6261667962656962366c6e7671776a7469636b6a7036747a68616d69796c687a636635746e79633574326e72726b76336d697274706c76356b69342f696d6167652e706e67-GGA8q5cUC-transformed.png</file>
+    <file>resourse/background.jpg</file>
+    <file>resourse/classmates_logo_icon_134599.png</file>
+    <file>resourse/click.png</file>
+    <file>resourse/facebook_108044.png</file>
+    <file>resourse/facebook_logo_icon_134597.png</file>
+    <file>resourse/free-icon-youtube-4494485.png</file>
+    <file>resourse/icons8-github-32 (1).png</file>
+    <file>resourse/icons8-github-32.png</file>
+    <file>resourse/icons8-odnoklassniki-32.png</file>
+    <file>resourse/icons8-telegram-app-32.png</file>
+    <file>resourse/icons8-twitter-squared-32.png</file>
+    <file>resourse/icons8-vk-com-32.png</file>
+    <file>resourse/icons8-youtube-32.png</file>
+    <file>resourse/icons8-вконтакте-32.png</file>
+    <file>resourse/icons8-твиттер-32.png</file>
+    <file>resourse/icons8-телеграмма-app-32.png</file>
+    <file>resourse/icons8-ютуб-32.png</file>
+    <file>resourse/Image from million-wallpapers.ru 1920x1080.jpg</file>
+    <file>resourse/instagram_108043.png</file>
+    <file>resourse/instagram_logo_icon_134593.png</file>
+    <file>resourse/krasivyi-fon-78-1 (1) (1).png</file>
+    <file>resourse/krasivyi-fon-78-1 (1) (2).png</file>
+    <file>resourse/krasivyi-fon-78-1 (1).heic</file>
+    <file>resourse/krasivyi-fon-78-1 (1).jpeg</file>
+    <file>resourse/krasivyi-fon-78-1 (1).png</file>
+    <file>resourse/krasivyi-fon-78-1.webp</file>
+    <file>resourse/Telegram_2019_Logo.svg.png</file>
+    <file>resourse/telegram_logo_icon_134592.png</file>
+    <file>resourse/telegram_logo_icon_147228.png</file>
+    <file>resourse/Twitter-logo.svg.png</file>
+    <file>resourse/user.png</file>
+    <file>resourse/VK_Compact_Logo.png</file>
+    <file>resourse/vk_logo_icon_134603.png</file>
+    <file>resourse/whatsapp_108042.png</file>
+    <file>resourse/Whatsapp_icon-icons.com_66931.png</file>
+    <file>resourse/youtube_108041.png</file>
+    <file>resourse/youtube_logo_icon_134601.png</file>
+    <file>resourse/youtube_social_icon_red.png</file>
+    <file>resourse/туц.png</file>
+  </qresource>
+</RCC>
