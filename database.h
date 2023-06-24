@@ -31,7 +31,7 @@ protected:
 public:
     static DatabaseConnection* getInstance();
     QSqlDatabase& getDatabase();
-    int executeQuery(const QString& query);
+    QString executeQuery(const QString& query);
 };
 
 #endif // DATABASECONNECTION_H

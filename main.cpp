@@ -1,14 +1,13 @@
 #include <QApplication>
-#include "mytcpserver.h"
-#include "database.h"
 #include "mainwindow.h"
 #include "second.h"
+#include "teachermod.h"
 #include "QStyleFactory"
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
 
-    MyTcpServer server;
+    //https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/graph/travelling_salesman_problem.cpp
     MainWindow* window = MainWindow::instance();
     window->show();
 

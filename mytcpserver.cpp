@@ -4,11 +4,25 @@
 #include <QCoreApplication>
 #include <QDataStream>
 
+MyTcpServer* MyTcpServer::m_instance = nullptr;
+
 MyTcpServer::~MyTcpServer()
 {
 
 }
-MyTcpServer::MyTcpServer(){
+
+MyTcpServer* MyTcpServer::getInstance()
+{
+    if (!m_instance) {
+        m_instance = new MyTcpServer();
+    }
+    return m_instance;
+}
+
+MyTcpServer::MyTcpServer()
+{
+    connect(this, &MyTcpServer::sendToClientSignal, this, &MyTcpServer::sendToClientSlot);
+
     if(this->listen(QHostAddress::Any,33333))//Задаём адреса и порт подключения к серверу
     {
         qDebug() << "start";
@@ -53,23 +67,13 @@ void MyTcpServer::slotReadyRead(){
         qDebug() << "DataStream error";
     }
 }
-
-
-
+void MyTcpServer::sendToClientSlot(QString message) {
+        MyTcpServer::SendToClient(message);
+    }
 
 void MyTcpServer::SendToClient(QString request){
-    qDebug() <<"Sending... "<<request;
-    data.clear();
-    //QByteArray responseData;
-    //QString response=" ";
-    if (request=="who\r\n"){
-        socket->write("cares\n");
-    }
-    else{
+
     QByteArray responseData= request.toUtf8();
-    socket->write("You said: " +responseData);}
+    socket->write(responseData); // отправка сообщения клиенту
     socket->flush();
-}
-
-
-
+   }

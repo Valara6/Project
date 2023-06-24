@@ -9,31 +9,33 @@
 #include <QGuiApplication>
 #include <QScreen>
 #include <QMessageBox>
+#include "singletonsocket.h"
+#include <QTimer>
 MainWindow* MainWindow::m_instance = nullptr;
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
-    ui(new Ui::MainWindow),
-    m_socket(new QTcpSocket(this))
+    ui(new Ui::MainWindow)
+
 {
     ui->setupUi(this);
     QRect screenGeometry = QGuiApplication::primaryScreen()->availableGeometry();
 
-
+    SingletonSocket::instance();
     // вычисляем координаты центра экрана
     int x = (screenGeometry.width() - this->width()) / 2;
     int y = (screenGeometry.height() - this->height()) / 2;
     this->move(x, y);
-    connect(m_socket, &QTcpSocket::connected, this, &MainWindow::on_connected);
-    connect(m_socket, &QTcpSocket::disconnected, this, &MainWindow::on_disconnected);
-    connect(m_socket, &QTcpSocket::readyRead, this, &MainWindow::on_readyRead);
+    connect(SingletonSocket::instance()->getSocket(), &QTcpSocket::connected, this, &MainWindow::on_connected);
+    connect(SingletonSocket::instance()->getSocket(), &QTcpSocket::disconnected, this, &MainWindow::on_disconnected);
+    connect(SingletonSocket::instance(), &SingletonSocket::messageReceived, this, &MainWindow::on_readyRead);
     connect(ui->password, &QLineEdit::editingFinished, this, &MainWindow::onPasswordEditingFinished);
     connect(ui->password, &QLineEdit::textChanged, this, &MainWindow::checkPasswordMatch);
     connect(ui->verpassword, &QLineEdit::textChanged, this, &MainWindow::checkPasswordMatch);
 
 
     // Connect to the server
-    m_socket->connectToHost("127.0.0.1", 33333);
+
 
     setWindowFlags(Qt::FramelessWindowHint);
     setStyleSheet("background-color: transparent;");
@@ -82,11 +84,57 @@ MainWindow* MainWindow::instance()
 
 void MainWindow::on_pushButton_clicked()
 {
+    if (ui->name->text().simplified().isEmpty())
+    {
+        ui->message->setStyleSheet("color: red;");
+        ui->message->setText("Заполните поля имя");
+        QTimer::singleShot(5000, [=]() {
+                ui->message->setText("");
+            });
+        return;
+    }
+    if (ui->email->text().simplified().isEmpty())
+    {
+        ui->message->setStyleSheet("color: red;");
+        ui->message->setText("Заполните поля логин");
+        QTimer::singleShot(5000, [=]() {
+                ui->message->setText("");
+            });
+        return;
+    }
+    if (ui->password->text().simplified().isEmpty())
+    {
+        ui->message->setStyleSheet("color: red;");
+        ui->message->setText("Заполните поля пароля");
+        QTimer::singleShot(5000, [=]() {
+                ui->message->setText("");
+            });
+        return;
+    }
+    if (ui->verpassword->text().simplified().isEmpty())
+    {
+        ui->message->setStyleSheet("color: red;");
+        ui->message->setText("Заполните поля подтверждения пароля");
+        QTimer::singleShot(5000, [=]() {
+                ui->message->setText("");
+            });
+        return;
+    }
+    if(!ui->srudent->isChecked() and !ui->teacher->isChecked())
+    {
+        ui->message->setStyleSheet("color: red;");
+        ui->message->setText("Не выбран роль");
+        QTimer::singleShot(5000, [=]() {
+                ui->message->setText("");
+            });
+        return;
+    }
     QString name = ui->name->text();
     QString email = ui->email->text();
     QString password = ui->password->text();
     QString verpassword = ui->verpassword->text();
     QString radioButtonValue;
+
     if(ui->srudent->isChecked())
     {
         radioButtonValue = "Student";
@@ -107,8 +155,8 @@ void MainWindow::on_pushButton_clicked()
     ui->teacher->setAutoExclusive(false); // добавить эту строку
     ui->teacher->setChecked(false);
     ui->teacher->setAutoExclusive(true); // добавить эту строку
-    m_socket->write(message.toUtf8());
-    QMessageBox::information(this, tr("Обновлено"), tr("Данные успешно обновлены."));
+    SingletonSocket::instance()->getSocket()->write(message.toUtf8());
+
 
 }
 
@@ -147,9 +195,23 @@ void MainWindow::on_disconnected()
     qDebug() << "Disconnected";
 }
 
-void MainWindow::on_readyRead()
+void MainWindow::on_readyRead(const QString& message, const QString& windowName)
 {
-qDebug() << "ReadyRead: " << m_socket->readAll();
+    if(windowName=="reg"){
+    if(message=="User successfully inserted")
+    {
+        this->hide();
+        second::instance()->show();
+        ui->message->clear();
+    }
+    else{
+    ui->message->setStyleSheet("color: red;");
+    ui->message->setText(message);
+    QTimer::singleShot(5000, [=]() {
+            ui->message->setText("");
+        });
+    }
+    }
 }
 
 
@@ -162,5 +224,12 @@ void MainWindow::on_clicktologin_clicked()
         // Скрываем MainWindow
     this->hide();
     second::instance()->show();
+}
+
+
+void MainWindow::on_closebutton_clicked()
+{
+
+    this->close();
 }
 

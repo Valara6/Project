@@ -3,8 +3,7 @@
 
 #include <QMainWindow>
 #include <QTcpSocket>
-#include "second.h"
-
+#include "singletonsocket.h"
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
 QT_END_NAMESPACE
@@ -28,13 +27,13 @@ private slots:
     void on_gitbutton_clicked();
     void on_connected();
     void on_disconnected();
-    void on_readyRead();
+    void on_readyRead(const QString &message, const QString &windowName);
     void on_clicktologin_clicked();
+    void on_closebutton_clicked();
 
 private:
     explicit MainWindow(QWidget *parent = nullptr);
     Ui::MainWindow *ui;
-    QTcpSocket *m_socket;
     static MainWindow* m_instance;
 };
 

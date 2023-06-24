@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>second</class>
+ <widget class="QMainWindow" name="second">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>20</y>
+      <width>550</width>
+      <height>500</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#pushButton{
+	
+	
+	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682,x2:1,y2:0.477,stop:0 rgba(11,131,120,219),stop:1 rgba(85,98,112,226));
+	color:rgba(255,255,255,210);
+	border-radius:5px;
+}
+QPushButton#pushButton:hover{
+	
+	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682,x2:1,y2:0.477,stop:0 rgba(150,123,111,219),stop:1 rgba(85,81,84,226));
+	
+}
+QPushButton#pushButton:pressed{
+	
+	padding-left:5px;
+	padding-top:5px;
+	background-color:rgba(150,123,111,255);
+	
+}
+
+
+
+QPushButton#vkbutton,#vkbutton,#gitbutton,#tgbutton,#twitterbutton,#clicktoregister{
+	
+	background-color: rgba(0,0,0,0);
+	color:rgba(85,98,112,255);
+	
+}
+QPushButton#vkbutton:hover,#youtubebutton:hover,#gitbutton:hover,#tgbutton:hover,#twitterbutton:hover,#clicktoregister:hover{
+	
+	color: rgba(131,96,53,255);
+	
+}
+QPushButton#vkbutton:pressed,#youtubebutton:pressed,#gitbutton:pressed,#tgbutton:pressed,#twitterbutton:pressed,clicktoregister:pressed{
+	
+	padding-left:5px;
+	padding-top:5px;
+	color:rgba(91,88,53,255);
+	
+}
+</string>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>30</y>
+       <width>280</width>
+       <height>430</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image: url(:/resourse/krasivyi-fon-78-1 (1).jpeg);
+border-top-left-radius:50px;
+background-color:rgba(0,0,0,80);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>30</y>
+       <width>240</width>
+       <height>430</height>
+      </rect>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:rgba(255,255,255,255);
+border-bottom-right-radius:50px;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>80</y>
+       <width>100</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>20</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:rgba(0,0,0,200)</string>
+     </property>
+     <property name="text">
+      <string>log In</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="nameoremail">
+     <property name="geometry">
+      <rect>
+       <x>295</x>
+       <y>150</y>
+       <width>190</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:rgba(0,0,0,0);
+border:none;
+border-bottom:2px solid rgba(46,82,101,200);
+color:rgba(0,0,0,240);
+padding-bottom:7px;
+</string>
+     </property>
+     <property name="frame">
+      <bool>false</bool>
+     </property>
+     <property name="echoMode">
+      <enum>QLineEdit::Normal</enum>
+     </property>
+     <property name="placeholderText">
+      <string>User Name or Email</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="password">
+     <property name="geometry">
+      <rect>
+       <x>295</x>
+       <y>215</y>
+       <width>190</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:rgba(0,0,0,0);
+border:none;
+border-bottom:2px solid rgba(46,82,101,200);
+color:rgba(0,25,0,240);
+padding-bottom:7px;
+</string>
+     </property>
+     <property name="maxLength">
+      <number>100</number>
+     </property>
+     <property name="frame">
+      <bool>false</bool>
+     </property>
+     <property name="echoMode">
+      <enum>QLineEdit::Password</enum>
+     </property>
+     <property name="cursorPosition">
+      <number>0</number>
+     </property>
+     <property name="placeholderText">
+      <string>Password</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>295</x>
+       <y>295</y>
+       <width>190</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton#pushButton{
+	
+	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682,x2:1,y2:0.477,stop:0 rgba(51,0,102,255),stop:1 rgba(85,98,112,226));
+	color:rgba(255,255,255,210);
+	border-radius:5px;
+}
+QPushButton#pushButton:hover{
+	
+	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682,x2:1,y2:0.477,stop:0 rgba(85,81,84,226),stop:1 rgba(51,0,102,255));
+	
+}
+QPushButton#pushButton:pressed{
+	
+	padding-left:5px;
+	padding-top:5px;
+	background-color:rgba(149,33,246,255);
+	
+}</string>
+     </property>
+     <property name="text">
+      <string>Log In</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>300</x>
+       <y>350</y>
+       <width>181</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:rgba(0,0,255,210);</string>
+     </property>
+     <property name="text">
+      <string>Forgot your Email or Password?</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="youtubebutton">
+     <property name="geometry">
+      <rect>
+       <x>330</x>
+       <y>400</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>30</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <stylestrategy>PreferAntialias</stylestrategy>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">image: url(:/resourse/icons8-ютуб-32.png);
+border:None</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="vkbutton">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>400</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>30</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <stylestrategy>PreferAntialias</stylestrategy>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">image: url(:/resourse/icons8-вконтакте-32.png);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="gitbutton">
+     <property name="geometry">
+      <rect>
+       <x>370</x>
+       <y>400</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>30</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <stylestrategy>PreferAntialias</stylestrategy>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">image: url(:/resourse/icons8-github-32 (1).png);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="tgbutton">
+     <property name="geometry">
+      <rect>
+       <x>410</x>
+       <y>400</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>30</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <stylestrategy>PreferAntialias</stylestrategy>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">image: url(:/resourse/icons8-телеграмма-app-32.png);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="twitterbutton">
+     <property name="geometry">
+      <rect>
+       <x>450</x>
+       <y>400</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>30</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <stylestrategy>PreferAntialias</stylestrategy>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">image: url(:/resourse/icons8-твиттер-32.png);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>130</y>
+       <width>181</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image: url(:/resourse/туц.png);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="clicktoregister">
+     <property name="geometry">
+      <rect>
+       <x>395</x>
+       <y>365</y>
+       <width>81</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:rgba(0,0,0,0);
+border-image: url(:/resourse/click.png);
+border:none;
+color:rgba(250,247,247,1);
+padding-bottom:7px;
+</string>
+     </property>
+     <property name="text">
+      <string>CLICK HERE</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_7">
+     <property name="geometry">
+      <rect>
+       <x>300</x>
+       <y>370</y>
+       <width>101</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:rgba(0,0,255,210);</string>
+     </property>
+     <property name="text">
+      <string>Registration form</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="message">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>270</y>
+       <width>221</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
